@@ -1,8 +1,8 @@
-# CCC151-ComplaSys
+# ComplaSys
 
-CCC151-ComplaSys (Barangay Del Carmen Complaint System) is a web-based software application designed to improve the efficiency, transparency, and organization of complaint handling within Barangay Del Carmen. The system replaces the traditional paper-based complaint process with a centralized digital platform, enabling faster filing, better tracking, and improved accountability among barangay officials.
+ComplaSys is a software application designed to improve the efficiency, transparency, and organization of complaint handling within Barangay Del Carmen. The system replaces the traditional paper-based complaint process with a centralized digital platform, enabling faster filing, better tracking, and improved accountability among barangay officials.
 
-This project was developed in partial fulfillment of the requirements for the course CCC151 – Information Management.
+This project was developed in partial fulfillment of the requirements for the subject CCC151 – Information Management.
 
 ---
 
@@ -53,3 +53,4 @@ This project was developed in partial fulfillment of the requirements for the co
 
 ## License
 This project is for academic purposes only.
+
