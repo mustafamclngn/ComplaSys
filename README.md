@@ -1,113 +1,81 @@
 <div align="center">
 
-# ComplaSys - Barangay Complaint Management System
+# ComplaSys
+### Barangay Complaint Management System
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=)
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-Desktop%20App-41CD52?logo=qt&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql&logoColor=white)
-![Qt Designer](https://img.shields.io/badge/Qt%20Designer-5-41CD52?logo=qt&logoColor=)
+![Qt Designer](https://img.shields.io/badge/Qt%20Designer-5-41CD52?logo=qt&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+
+**A desktop application that replaces paper-based complaint handling with a centralized digital platform for Barangay Del Carmen, Iligan City.**
 
 </div>
 
-  ComplaSys is a **desktop application** designed to improve the efficiency, transparency, and organization of complaint handling within **Barangay Del Carmen, Iligan City**.
+---
 
-The system replaces the traditional paper-based complaint process with a centralized digital platform, enabling faster filing, better tracking, and improved accountability among barangay officials.
+## Overview
+
+ComplaSys modernizes the complaint management process of Barangay Del Carmen by providing a structured, searchable, and accountable system for filing and resolving community complaints. Built with PyQt5 and MySQL, it enables barangay officials to manage cases efficiently — from initial filing through to resolution.
 
 ---
 
-## Technologies Used
-
-### Frontend
-- **PyQt5** - Python bindings for Qt5 framework
-- **Qt Designer 5** - Visual UI design tool for creating .ui files
-
-### Backend
-- **Python** - Core programming language
-
-### Database
-- **MySQL** - Relational database for complaint records and user data
-
-### Development Tools
-- **Qt Designer 5** - GUI layout designer
-- **Git & GitHub** - Version control
-
----
-
-## Key Features
+## Features
 
 ### Complaint Management
-- Add, update, and delete complaints
+- Add, update, and delete complaint records
 - Store complete complaint details for proper documentation
 
 ### Case Assignment
-- Assign barangay officials to handle specific complaints
-- Manage responsibility and case ownership
+- Assign specific barangay officials to handle complaints
+- Maintain clear ownership and accountability per case
 
 ### Status Tracking
-- Track complaint progress using the following statuses:
-  - Pending
-  - Under Investigation
-  - Resolved
+Track complaint progress across three stages:
+- `Pending` → `Under Investigation` → `Resolved`
 
-### Search and Filtering
-- Search complaints by:
-  - Complainant name
-  - Respondent name
-  - Date filed
-  - Complaint type
-- Filter cases by status (Pending, Resolved)
-
-### Record Management
-- Eliminates reliance on manual paper records
-- Provides organized, searchable, and secure complaint data
+### Search & Filtering
+- Search by complainant name, respondent name, date filed, or complaint type
+- Filter cases by status
 
 ---
 
-## Purpose of the Project
+## Tech Stack
 
-### Primary Objectives
-- **Digitize barangay complaint filing and management**
-  - Move from paper-based to digital system
-  - Centralize all complaint records
-  
-- **Improve transparency and accountability**
-  - Track all actions and updates
-  - Clear assignment of responsibilities
-  
-- **Reduce processing and resolution time**
-  - Streamline complaint workflow
-  - Faster communication between parties
-  
-- **Provide real-time complaint tracking**
-  - Officials can monitor case progress
-  - Easy status updates and reporting
+| Layer | Technology |
+|---|---|
+| UI Framework | PyQt5 + Qt Designer 5 |
+| Language | Python 3.12 |
+| Database | MySQL 8.0+ |
+| Version Control | Git & GitHub |
 
 ---
 
-## Primary Contributors
+## Contributors
 
-- [@mustafamclngn](https://github.com/mustafamclngn)
-- [@zzzeit](https://github.com/zzzeit)
-- [@LearningwithMakikoy](https://github.com/LearningwithMakikoy)
+| GitHub | 
+|---|
+| [@mustafamclngn](https://github.com/mustafamclngn) |
+| [@zzzeit](https://github.com/zzzeit) |
+| [@LearningwithMakikoy](https://github.com/LearningwithMakikoy) |
+
 ---
 
 ## Acknowledgments
 
-This project was developed as part of an academic requirement. Special thanks to Barangay Del Carmen, Iligan City government and respective officials for their valuable information and inputs and to all contributors who made this project possible.
+This project was developed as an academic requirement. Special thanks to the officials of Barangay Del Carmen, Iligan City for their guidance and inputs, and to all contributors who made this possible.
 
 ---
 
-## License
+## License & Disclaimer
 
 This project is for **academic and educational purposes only**. All rights reserved.
+
+> ⚠️ ComplaSys is a student project and is not officially affiliated with Barangay Del Carmen or the Iligan City government.
 
 ---
 
 ## Contact
 
-For questions or feedback, please open an issue on GitHub or contact the development team.
-
----
-
-**Note**: This is an academic project developed as a desktop application for educational purposes.
+For questions or feedback, please [open an issue](https://github.com/mustafamclngn/ComplaSys/issues) on GitHub.
